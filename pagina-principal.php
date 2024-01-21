@@ -45,7 +45,7 @@ if (isset($_SESSION['user'])) {
     	include_once("vistas/home_cliente.php");
     	}else{
             $errorlogin="nombre y/o password incorrecto";
-    		//echo "nombre o password incorrectos";
+    		//echo "nombre o contraceña  incorrectos";
     		include_once("vistas/login.php");
     	}
 }else{
